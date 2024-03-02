@@ -21,3 +21,6 @@ function greeting (hours){
 
 const welcomeMessage = document.querySelector('#welcome')
 welcomeMessage.textContent = greeting(hours)
+
+const secret = "Serect Moblin"
+localStorage.setItem("It's a secret to everybody.", secret)
